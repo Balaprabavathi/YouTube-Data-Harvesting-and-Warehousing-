@@ -17,7 +17,7 @@ Develop an interactive dashboard using Streamlit to visualize the YouTube data i
 ## Insight Generation:
 Analyze the stored data to extract meaningful insights into YouTube content performance, audience engagement, and emerging trends. These insights will inform content creators, marketers, and decision-makers in optimizing their strategies for success on the platform.
 
-## Learning and Skill Development:
+### Learning and Skill Development:
 Gain hands-on experience in data harvesting, warehousing, and visualization technologies, including APIs, SQL, MongoDB, and Streamlit. Develop proficiency in data science methodologies and tools through practical application in a real-world project scenario.
 
 ### REQUIRED LIBRARIES:
@@ -30,7 +30,7 @@ Gain hands-on experience in data harvesting, warehousing, and visualization tech
 ### Objective: 
 Develop a Streamlit application for accessing and analyzing data from multiple YouTube channels.
 
-### Features:
+#### Features:
 -	Retrieve channel details and video data using YouTube API.
 -	Store data in a data lake.
 -	Option to store data in Mongodb, MySQL or PostgreSQL.
@@ -44,35 +44,35 @@ Develop a Streamlit application for accessing and analyzing data from multiple Y
 -	Query the SQL data warehouse with SQL queries.
 -	Display data in the Streamlit app using data visualization features.
 
-## Streamlit App Setup
+#### Streamlit App Setup
 Explanation: Streamlit chosen for rapid UI development.
 
-## Features 
+#### Features 
 -	User input for YouTube channel ID.
 -	Display channel details.
 -	Option to select channels for migration.
 
-## Connecting to YouTube API
+#### Connecting to YouTube API
 -	Utilizing Google API client library for Python.
 -	Making requests to the YouTube API to retrieve channel and video data.
 -	Discuss authentication and quota considerations.
 
-## Data Storage and Cleaning
+#### Data Storage and Cleaning
 -	Storing retrieved data temporarily using pandas DataFrames.
 -	Cleaning and preprocessing data for migration.
 -	Ensuring data integrity and consistency.
 
-## Migration to SQL Data Warehouse
+#### Migration to SQL Data Warehouse
 -	Explanation: Data migration to SQL databases (MySQL or PostgreSQL).
 -	Benefits of using SQL data warehouse for structured data storage.
 -	Discuss schema design considerations.
 
-## Querying the SQL Data Warehouse
+#### Querying the SQL Data Warehouse
 -	Using SQL queries to retrieve data for specific channels.
 -	Joining tables to get comprehensive channel details.
 -	Integrating Python SQL library like SQLAlchemy for interaction.
 
-## Displaying Data in Streamlit
+#### Displaying Data in Streamlit
 -	Utilizing Streamlit's data visualization features.
 -	Creating charts and graphs for data analysis.
 -	Providing interactive elements for user engagement.
