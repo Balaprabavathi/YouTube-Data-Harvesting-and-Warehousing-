@@ -31,7 +31,7 @@ Gain hands-on experience in data harvesting, warehousing, and visualization tech
 -	pandas
 
 ### Objective: 
-Develop a Streamlit application for accessing and analyzing data from multiple YouTube channels.
+To develop a Streamlit application that enables users to collect, store, and analyze data from multiple YouTube channels. It leverages the YouTube API to fetch comprehensive channel and video information, which is then stored in a SQL database for structured data management. Users can query this data warehouse to extract specific insights and visualize the results directly within the app. The goal is to provide an efficient tool for YouTube data analysis and visualization.
 
 #### Features:
 -	Retrieve channel details and video data using YouTube API.
