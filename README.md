@@ -27,16 +27,16 @@ Gain hands-on experience in data harvesting, warehousing, and visualization tech
 -	pymongo
 -	pandas
 
-## Objective: 
+### Objective: 
 Develop a Streamlit application for accessing and analyzing data from multiple YouTube channels.
 
-## Features:
+### Features:
 -	Retrieve channel details and video data using YouTube API.
 -	Store data in a data lake.
 -	Option to store data in Mongodb, MySQL or PostgreSQL.
 -	Ability to search and retrieve data from the SQL database.
 
-## Approach Overview
+#### Approach Overview
 -	Set up a Streamlit app for user interface.
 -	Connect to the YouTube API using Google API client library.
 -	Store and clean data temporarily using pandas DataFrames.
