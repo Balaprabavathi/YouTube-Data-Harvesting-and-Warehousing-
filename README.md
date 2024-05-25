@@ -34,10 +34,12 @@ Gain hands-on experience in data harvesting, warehousing, and visualization tech
 To develop a Streamlit application that enables users to collect, store, and analyze data from multiple YouTube channels. It leverages the YouTube API to fetch comprehensive channel and video information, which is then stored in a SQL database for structured data management. Users can query this data warehouse to extract specific insights and visualize the results directly within the app. The goal is to provide an efficient tool for YouTube data analysis and visualization.
 
 #### Features:
--	Retrieve channel details and video data using YouTube API.
--	Store data in a data lake.
--	Option to store data in Mongodb, MySQL or PostgreSQL.
--	Ability to search and retrieve data from the SQL database.
+- Input YouTube channel IDs to retrieve channel and video data.
+- Collect data for up to 10 different YouTube channels.
+- Store collected data in a data lake and a SQL data warehouse.
+- Use MySQL or PostgreSQL for data storage.
+- Search and retrieve data from the SQL database with various search options.
+- Display data in the Streamlit app using tables and charts.
 
 #### Approach Overview
 -	Set up a Streamlit app for user interface.
@@ -51,9 +53,10 @@ To develop a Streamlit application that enables users to collect, store, and ana
 Explanation: Streamlit chosen for rapid UI development.
 
 #### Features 
--	User input for YouTube channel ID.
--	Display channel details.
--	Option to select channels for migration.
+- User-friendly interface with intuitive controls for seamless navigation.
+- Input field for entering YouTube channel IDs to retrieve relevant data.
+- Integration with the YouTube API for fetching channel and video information.
+- Option to store collected data in SQL databases (MySQL or PostgreSQL) for structured management.
 
 #### Connecting to YouTube API
 -	Utilizing Google API client library for Python.
