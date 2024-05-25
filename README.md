@@ -21,11 +21,11 @@ Analyze the stored data to extract meaningful insights into YouTube content perf
 Gain hands-on experience in data harvesting, warehousing, and visualization technologies, including APIs, SQL, MongoDB, and Streamlit. Develop proficiency in data science methodologies and tools through practical application in a real-world project scenario.
 
 ### REQUIRED LIBRARIES:
-•	googleapiclient.discovery
-•	streamlit
-•	psycopg2
-•	pymongo
-•	pandas
+-	googleapiclient.discovery
+-	streamlit
+-	psycopg2
+-	pymongo
+-	pandas
 
 ## Objective: 
 Develop a Streamlit application for accessing and analyzing data from multiple YouTube channels.
